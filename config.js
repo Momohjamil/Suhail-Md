@@ -8,15 +8,15 @@ global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="samsamsun789@gmail.com"
-global.location="Lahore,Pakistan."
+global.location="Federal Capital territory,Nigeria."
 
 
-global.mongodb= process.env.MONGODB_URI || ""
+global.mongodb= process.env.MONGODB_URI || "mongodb+srv://DARKSHAN:3000@cluster0.t1wsjlv.mongodb.net/"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Nigeria";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
@@ -26,7 +26,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2349131125604";
 
 
 
@@ -53,7 +53,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "923184474176,923xxxxx
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "false"
+global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
@@ -62,7 +62,7 @@ global.api_smd = "https://api-smd-1.vercel.app"
 global.scan = "https://suhail-md-vtsf.onrender.com/";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  "" ;
+global.SESSION_ID = process.env.SESSION_ID ||  "SUHAIL_22_51_04_08_ewogICJjcmVkcy5qc29uIjogIntcIm5vaXNlS2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiZ01lbkp2ZjVCTEE0ZU8rSDZ0UTNvYmxKYXBIZUxGanN2elU3R2RjYk9XOD1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIit0TmpWRCtLdDJEOVE0WlMwQURiWERRL203czFCdGtYc04zNndGNmFYUTA9XCJ9fSxcInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyXCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwia0RWbUdpQ0hwck1tWjkvRVJkYUpWMTNySUFYa0dTVlY4MUNpRlRNK2syND1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIjhZTkJaeFVxcGhWRGhhY2p3WU1OdGhwKzUzblNCeGs1WDFnK2JoUnIzams9XCJ9fSxcInNpZ25lZElkZW50aXR5S2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiV0lQRndWYjJ4akRYWmwyV0o0ZFdOMlFGRmFDeVNCeXg5L0ZPRlNNU2EyST1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIjZ6bjlVRjRhRjhSUUNBQTRGWEtDYk16dkhCcW9tNFlKMGdqVzQ3MmVFanc9XCJ9fSxcInNpZ25lZFByZUtleVwiOntcImtleVBhaXJcIjp7XCJwcml2YXRlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJvQ1AxOGFqdmFCRTk2bmpVN21mcDZhK1F0bXVNSkRHMGZETkMwK0ZvUjF3PVwifSxcInB1YmxpY1wiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwibmF4RHovR2laQXdLOEh4cENuTHBneEdRaTRTMDFHZmFPbHFDWTRpY3htUT1cIn19LFwic2lnbmF0dXJlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJNYzl4K0JSSU5ETjBoQmxNbWJ2OUx2ZG5kVEhrUUljYlB2cjR6R2JxQmN5OWdGOTNyYXd4WDk4dWY5ZVQ4VXdxeGhEOGNHaFI4WVE0aXNjbVhiM1FEQT09XCJ9LFwia2V5SWRcIjoxfSxcInJlZ2lzdHJhdGlvbklkXCI6MjAxLFwiYWR2U2VjcmV0S2V5XCI6XCJtelR0T2xiaTdic3djYUNqSGRnLzM1THdnSkpxUWhKbDZzOTRzYm02R3JBPVwiLFwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzXCI6W3tcImtleVwiOntcInJlbW90ZUppZFwiOlwiMjM0OTEzNzg0ODkwOUBzLndoYXRzYXBwLm5ldFwiLFwiZnJvbU1lXCI6dHJ1ZSxcImlkXCI6XCIzNUYzRDQ4REI5MENDNTU0MUEwMDRGMjUyNEIyMDRCRFwifSxcIm1lc3NhZ2VUaW1lc3RhbXBcIjoxNzEyNjE2NzAxfV0sXCJuZXh0UHJlS2V5SWRcIjozMSxcImZpcnN0VW51cGxvYWRlZFByZUtleUlkXCI6MzEsXCJhY2NvdW50U3luY0NvdW50ZXJcIjoxLFwiYWNjb3VudFNldHRpbmdzXCI6e1widW5hcmNoaXZlQ2hhdHNcIjpmYWxzZX0sXCJkZXZpY2VJZFwiOlwibXBFcXM5dWJRdm1DRmVqZHk5TkE4Z1wiLFwicGhvbmVJZFwiOlwiMGY3YzFmYTQtMTkxNi00YTE1LWI0OTUtMGI5OGUzZjA1OWFhXCIsXCJpZGVudGl0eUlkXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJzSTRoZ21Oa1V1aFRTNFBmVk1OMG5DVzNMajg9XCJ9LFwicmVnaXN0ZXJlZFwiOnRydWUsXCJiYWNrdXBUb2tlblwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiVnUzQ1RLajNjV3lCaGRwUXM4dFZ5WnJEbkNZPVwifSxcInJlZ2lzdHJhdGlvblwiOnt9LFwicGFpcmluZ0NvZGVcIjpcIjE0WlBIUlBHXCIsXCJtZVwiOntcImlkXCI6XCIyMzQ5MTM3ODQ4OTA5OjFAcy53aGF0c2FwcC5uZXRcIixcImxpZFwiOlwiMzU4OTM0Nzc5MzMyNjg6MUBsaWRcIixcIm5hbWVcIjpcIkJvdFwifSxcImFjY291bnRcIjp7XCJkZXRhaWxzXCI6XCJDS2E0dG9JR0VQWHAwYkFHR0FFZ0FDZ0FcIixcImFjY291bnRTaWduYXR1cmVLZXlcIjpcImJLREVLVG5yQ2ZVRUl2WUpqQ0NzL0h1NkhTcFhiU2tvMFBobVY2cGhlWGc9XCIsXCJhY2NvdW50U2lnbmF0dXJlXCI6XCJUSm5ITUhYYXpjQkd1cFQ5Mkxaa2NPbStFNk15VjJzV2wwVWZSSUVxYnQ1dWVpbi9QYno4YnRqSGZtV2F0R0NpM3B0ZTlGcmV4d2d1OXpSa01kL3FCZz09XCIsXCJkZXZpY2VTaWduYXR1cmVcIjpcIjErVE1kRFhGSU5tbTZXL1RXSThVN1dsMzB5UmJ4NTFLM1laR2FnNXFZc0hsK3pKNm9UcFQxVkxMeEdRU1JPUjhQZ2xQRGxSeUxlOVkxOW9RMUpNdERBPT1cIn0sXCJzaWduYWxJZGVudGl0aWVzXCI6W3tcImlkZW50aWZpZXJcIjp7XCJuYW1lXCI6XCIyMzQ5MTM3ODQ4OTA5OjFAcy53aGF0c2FwcC5uZXRcIixcImRldmljZUlkXCI6MH0sXCJpZGVudGlmaWVyS2V5XCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJCV3lneENrNTZ3bjFCQ0wyQ1l3Z3JQeDd1aDBxVjIwcEtORDRabGVxWVhsNFwifX1dLFwicGxhdGZvcm1cIjpcImFuZHJvaWRcIixcImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcFwiOjE3MTI2MTY2OTgsXCJteUFwcFN0YXRlS2V5SWRcIjpcIkFBQUFBRXdFXCJ9IiwKICAiYXBwLXN0YXRlLXN5bmMta2V5LUFBQUFBRXdFLmpzb24iOiAie1wia2V5RGF0YVwiOlwiUlMrckdqZFFzZ1FFdUw4SjBPRHJsTWVTTmorM3lOZFFEYWpyTlFMSjFBRT1cIixcImZpbmdlcnByaW50XCI6e1wicmF3SWRcIjoxNjE1Njk4OTgyLFwiY3VycmVudEluZGV4XCI6MSxcImRldmljZUluZGV4ZXNcIjpbMCwxXX0sXCJ0aW1lc3RhbXBcIjpcIjE3MTI2MTY2OTkzMDRcIn0iCn0=" ;
 
 
 module.exports = {
